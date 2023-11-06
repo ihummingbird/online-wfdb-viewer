@@ -49,13 +49,13 @@ Then you can change the waveform you want to see using the drop-down menu.
 By doing two clicks you can see and then copy the amplitudes and times of the points and their time difference.
 All the errors are described in the lower menu of the GUI, the app will not crash but things like VPNs etc might interfere which you can see the reason in the footer.
 
-![GUI Example](/images/image_name.png)
+![GUI Example](owfdbv.png)
 
 
 If you were not sure about the WFDB address you can check it using [Physionet Lightwave]([URL](https://physionet.org/lightwave/))
 
-![Lightwave Example](/images/image_name.png)
-
+![Lightwave Example 1](Lightwave example 1.png)
+![Lightwave Example 2](Lightwave example 2.png)
 
 ### If you see a blank plot it's probably because that part of the signal is empty, it's not a bug.
 
