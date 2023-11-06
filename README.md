@@ -25,7 +25,7 @@ You can install the required packages with the following command:
 pip install pyqt5 matplotlib numpy scipy pandas wfdb
 ```
 
-##Installation
+## Installation
 
 Clone the repository to your local machine:
 
@@ -34,7 +34,7 @@ git clone https://github.com/mahdyyahoo/online-wfdb-viewer.git
 cd online-wfdb-viewer
 ```
 
-##Usage
+## Usage
 
 Just run the .py script
 
@@ -57,19 +57,19 @@ If you were not sure about the WFDB address you can check it using [Physionet Li
 ![Lightwave Example](/images/image_name.png)
 
 
-###If you see a blank plot it's probably because that part of the signal is empty, it's not a bug.
+### If you see a blank plot it's probably because that part of the signal is empty, it's not a bug.
 
 ##Contributing
 
 If you need to add anything, feel free to fork. I probably can't put more time on it.
-Heres my email if you needed.
+Here's my email if you need it.
 
 mahdyu1346@live.com
 
-##License
+## License
 
 This project is licensed under the MIT License - see the LICENSE.md file for details.
 
-Acknowledgments
+## Acknowledgments
 
-I created this app under supervision
+Created under supervision or my professor Dr. Ahmadi at Shahid Beheshti University of Medical Sciences.
