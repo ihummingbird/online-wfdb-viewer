@@ -3,6 +3,8 @@ I made this in a week for a university (pending) paper, since I couldn't find an
 It's a basic GUI to view and read simple properties of WFDB signals online without the need to download the file. 
 I'll see if I can turn it into an exe so that it would be easier for anyone who needs it.
 
+<img src="/owfdbv.png" width="800" height="600">
+
 # Online Waveform Database Signal Viewer
 
 This application is a tool designed for visualizing waveform signals from online databases, specifically tailored for medical waveform data like ECG. It is built with Python and PyQt5, providing a graphical interface for users to input parameters, view, and analyze waveform data.
@@ -43,23 +45,22 @@ python GUI_Online_signal_viewer.py
 ```
 
 The preview is a simple sine wave, if you hit the "Update" button once it will read a WFDB from Physionet MIMIC-IV.
-For any signal you just need to have the WFDB address,
-###Just make sure the three address bars combined would lead to the address of the signal.
+For any signal you just need to have the WFDB address,Just make sure the three address bars combined would lead to the address of the signal.
 Then you can change the waveform you want to see using the drop-down menu.
 By doing two clicks you can see and then copy the amplitudes and times of the points and their time difference.
 All the errors are described in the lower menu of the GUI, the app will not crash but things like VPNs etc might interfere which you can see the reason in the footer.
 
-![GUI Example](owfdbv.png)
 
 
-If you were not sure about the WFDB address you can check it using [Physionet Lightwave]([URL](https://physionet.org/lightwave/))
 
-![Lightwave Example 1](Lightwave example 1.png)
-![Lightwave Example 2](Lightwave example 2.png)
+If you were not sure about the WFDB address you can check it using [Physionet Lightwave](https://physionet.org/lightwave/)
+
+![Lightwave Example 1](lightwave_example_1.png)
+![Lightwave Example 2](lightwave_example_2.png)
 
 ### If you see a blank plot it's probably because that part of the signal is empty, it's not a bug.
 
-##Contributing
+## Contributing
 
 If you need to add anything, feel free to fork. I probably can't put more time on it.
 Here's my email if you need it.
