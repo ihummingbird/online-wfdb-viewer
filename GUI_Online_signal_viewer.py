@@ -7,21 +7,16 @@ from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
 from matplotlib.figure import Figure
 import numpy as np
 from PyQt5.QtGui import QGuiApplication
-import csv
-import pandas as pd
-import sys
-from pathlib import Path
 import wfdb
 import os
 from matplotlib import pyplot as plt
 from scipy.signal import resample
-import sys
 from PyQt5.QtWidgets import QApplication, QSplashScreen, QMainWindow
 from PyQt5.QtCore import Qt
 from PyQt5.QtGui import QPixmap
 from PyQt5.QtWidgets import QLabel, QHBoxLayout, QComboBox
 import time
-import h5py
+
 
 
 # Define the style
