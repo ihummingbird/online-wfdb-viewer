@@ -6,11 +6,7 @@ from PyQt5.QtGui import QIcon
 from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
 from matplotlib.figure import Figure
 import numpy as np
-from PyQt5.QtGui import QGuiApplication
 import wfdb
-import os
-from matplotlib import pyplot as plt
-from scipy.signal import resample
 from PyQt5.QtWidgets import QApplication, QSplashScreen, QMainWindow
 from PyQt5.QtCore import Qt
 from PyQt5.QtGui import QPixmap
